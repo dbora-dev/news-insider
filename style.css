@@ -1,0 +1,268 @@
+.container {
+  width: 1024px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  /* background-image: linear-gradient(to right,#4e54c8, #8f94fb); */
+  background-color: #252422;
+}
+
+header {
+  background-color: white;
+
+  display: flex;
+  margin: auto;
+  padding-right: 8px;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  min-height: 300px;
+  display: flex;
+}
+
+.cards {
+  /* min-height: 300px; */
+  background-color: white;
+  /* padding: 0.29rem; */
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.card1 {
+  /* background-image: url(/images/Project_2_imgs/argentina.webp); */
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 40%;
+
+  margin-right: 0.29rem;
+  min-height: 250px;
+}
+.card2 {
+  /* background-image: url(/images/Project_2_imgs/openAI.webp); */
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  margin-right: 0.29rem;
+  min-height: 250px;
+}
+.card3 {
+  /* background-image: url(/images/Project_2_imgs/sunak.avif); */
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+
+  min-height: 250px;
+}
+
+.herobox1 {
+  background-color: #252422;
+  color: white;
+  flex: 2.2;
+  padding: 20px;
+}
+.herobox2 {
+  flex: 2;
+
+  background-color: #252422;
+}
+
+.logo {
+  flex: 1;
+}
+
+nav {
+  float: 2px;
+  display: flex;
+
+  align-content: space-between;
+}
+nav .nav-item a {
+  margin-right: 10px;
+  cursor: pointer;
+  color: #252422;
+  font-weight: bold;
+  position: relative;
+}
+
+.cards a .material-symbols-outlined {
+  align-items: end;
+}
+
+.cards a .material-symbols-outlined:hover {
+  transform: translate(6px);
+  transition: 0.5s;
+}
+
+.herobox1 a button {
+  padding: 10px 20px;
+  font-weight: 600;
+
+  /* display: inline-block; */
+  border-radius: 5px;
+  margin-top: 10px;
+  border: 2px white;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+.herobox1 a button:hover {
+  cursor: pointer;
+  /* background-color: #004e98; */
+  background-color: #f5cb5c;
+  color: #252422;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.top-headline h1 {
+  text-align: center;
+  color: azure;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: #3772ff;
+}
+
+.headlines {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #252422;
+}
+
+.headline {
+  width: 30%;
+
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.nav-item {
+  position: relative;
+  color: #ffffff;
+  
+}
+
+.entertaiment-group {
+  display: none;
+
+  
+
+
+  position: absolute;
+  z-index: 3;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: -8px;
+}
+
+.nav-item:hover .entertaiment-group {
+  display: block;
+  transition: 1s;
+  background-color: #252422;
+  
+}
+
+.entertaiment-group .nav-item {
+  margin-top: 10px;
+  color: white;
+  padding: 4px 10px;
+  background-color: #252422;
+}
+
+.entertaiment-group .nav-item  a{
+  color: white;
+}
+
+.entertaiment-group .nav-item:hover {
+  background-color: #3772ff;
+  transition: 0.8s;
+  
+}
+
+.news-letter{
+  background-color: #3772ff;
+  /* min-height: 100px; */
+  padding: 40px;
+  margin: auto;
+  text-align: center;
+}
+
+
+.news-box{
+  /* background-color: lightslategrey; */
+  color: white;
+  /* padding: 10px 20px; */
+ 
+  display: block;
+  font-weight: bold;
+
+  padding: 10px 20px;
+  font-weight: 600;
+  background-color: #252422;
+
+  /* display: inline-block; */
+  border-radius: 5px;
+  margin-top: 10px;
+  border: 2px white;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.8);
+ 
+ 
+  
+}
+
+
+.news-box button{
+  padding: 10px 20px;
+  font-weight: 600;
+
+  /* display: inline-block; */
+  border-radius: 5px;
+  text-transform: capitalize;
+  
+  border: 2px white;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  
+}
+
+
+.news-box button:hover{
+  background-color: #f5cb5c;
+  color: #252422;
+  font-weight: bold;
+  transition: 0.5s;
+  font-weight: bolder;
+}
+
+#name, #email{
+  min-width: 200px;
+  min-height: 20px;
+}
+
+input[type=text], input[type=email]{
+  padding: 3px 10px;
+}
+
+
+footer{
+  margin-top: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
